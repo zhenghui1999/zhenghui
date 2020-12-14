@@ -1,0 +1,180 @@
+1、数组的高阶方法
+forEach遍历
+filter过滤
+map映射
+reduce累计
+some有一个
+every每一个
+
+2、数组的方法
+join()连接成字符串
+reverse()翻转
+pop()删除后面
+push()添加后面
+unshift()添加前面
+shift()删除前面
+sort()排序
+splice()删除、添加
+concat()合并
+
+3、字符串方法
+split()分割为数组
+slice()切片
+trim()去掉空格
+charAt()获取下标
+substr()截取字符串
+substring（）
+indexof（）查找下标
+lastIndexof()从后开始查找下标
+
+4、vue的参数，事件的修饰符，按键的修饰符
+data模板选择器
+methods方法中心
+computed计算
+watch监听
+
+.stop  .once  .prevent
+
+5、json的两个方法，
+JSON.stringify()字符串转数组
+JSON.parse()字符串转对象
+
+
+本地存储的方法
+localStorage.getItem()获取
+setItem()设置
+claer()清空
+
+forEach 遍历
+filter 过滤
+reduce累计
+map 映射
+some 有一个
+every 每一个
+
+数组
+sort 排序
+splice 删除后添加
+concat（）合并
+shift()前面删除一个
+unshift前面添加一个
+re
+
+
+
+
+
+
+一、何为BFC
+BFC 格式化上下文，是Web页面中盒模型布局的CSS渲染模式，指一个独立的渲染区域或者说是一个隔离的独立容器。
+BFC即 块级格式化上下文，属于普通流。
+可以把BFC理解为一个封闭的大箱子，箱子内部的元素无论如何翻江倒海，都不会影响到外部。
+
+BFC目的
+1.子元素浮动撑起高度的BFC
+2.利用BFC避免margin重叠
+3.清除浮动，即子元素浮动能撑起来父元素高度
+
+
+
+
+
+
+
+
+
+
+查询总数  select count（*）total from 表名 where 条件
+
+分页查询 select * from 表名 where 1 limit 偏移数，需要偏移的数据条数
+
+排序 select * from 表名 where 1 order by id (desc倒序，asc正序)
+
+
+前后端分离
+1.定义
+后端业务逻辑输出 json/xml数据
+前端通过ajax获取数据，渲染成HTML页面
+2、优点
+前后端代码分离，工作时相互干扰少，各自可以做的工作
+
+
+
+sql查询 分页 第三页 ，每页5条数据
+select * from 表名 where 1 limit 10,5
+sql查询 按id排序
+select * from 表名 where 1 order by id
+select * from 表名 where 1 order by id desc
+sql 查询表的所有数据长度
+select count(*)as -- rom 表名 where 1
+用jquery发起一个完成的ajax请求
+$(function(){
+$.ajax({
+url:"",
+method:"“”,
+datatype:"",
+data:{},
+succes(){}
+})
+.then(res=>{})
+.catch(res=>{})
+
+})
+ul li 是动态添加的 给li绑定一个单击事件
+$("ul").on("click","li",function(){
+
+})
+
+
+vue参数有哪些？
+el 模板选择器
+data 数据中心
+methods 方法中心
+watch 监听
+created 创建完毕
+
+js数组的方法有哪些？
+join 连接成字符串
+pop 从后面删除
+push 从后面添加
+unshift 前面添加
+shift 前面删除
+splice 中间删除，中间添加
+concat 结合
+reverse 翻转
+sort 排序
+indexOf 搜索
+forEach 遍历
+map 映射
+filter 过滤
+reduce 累计
+every 所有为真返回真
+some 一个为真返回真
+find 查找元素
+findIndex 查找元素的下标
+
+                                                   
+数字Number number
+布尔 Boolean boolean
+字符串 String string
+未定义 undefined undefined
+空 null object                                                                                                                                                                                                         
+符号 Symbol symbol
+
+对象 Object object
+数组 Array object
+函数 Function function
+class Abc{
+}
+typeof Abc  function
+
+
+
+
+
+
+
+
+
+
+
